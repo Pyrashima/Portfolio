@@ -1,0 +1,247 @@
+body {
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nabar */
+.navbar-brand {
+  margin-left: 4rem;
+}
+
+.bg-light {
+  background-color: #f0e3ef !important;
+}
+
+ul .nav-item {
+  margin-left: 35px;
+}
+
+nav .navbar-nav li a {
+  color: #3a3c63 !important;
+  font-size: 25px;
+  overflow: hidden;
+}
+
+.ms-auto {
+  margin-right: 10rem;
+}
+
+/* Image principale, bgCouleur*/
+.imgProfile {
+  padding-inline-start: 15rem;
+  padding-top: 5rem;
+}
+
+#bgCouleur {
+  background-color: #a295c6;
+  width: 100%;
+  height: 800px;
+}
+
+.titrePrincipal,
+.textePrincipal {
+  color: #ffffff;
+}
+
+.titrePrincipal {
+  margin-block-start: 15rem;
+  margin-inline-start: 4em;
+}
+
+.textePrincipal {
+  margin-inline-start: 5em;
+}
+
+/* À propos de moi */
+#bgPresentation {
+  background-color: #3a3c63;
+  width: 100%;
+  height: 510px;
+}
+
+.box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-block-start: 2em;
+}
+
+.about,
+.aboutMe {
+  color: #ffffff;
+  text-align: center;
+}
+
+.aboutMe {
+  font-size: 18px;
+  padding-block-start: 2rem;
+  padding-inline-start: 20em;
+  padding-inline-end: 20em;
+}
+
+/* Objectif */
+#bgObjectif {
+  background-color: #f0e3ef;
+  width: 100%;
+  height: 650px;
+}
+
+.titleObjectif,
+.texteObjectif {
+  color: #3a3c63;
+  display: block;
+  padding-inline-end: 10em;
+}
+
+.titleObjectif {
+  padding-block-start: 8rem;
+  padding-inline-start: 3em;
+}
+
+.texteObjectif {
+  font-size: 18px;
+  padding-inline-start: 5em;
+}
+
+.imgObjectif {
+  display: block;
+  padding-block-start: 5rem;
+  padding-inline-end: 5em;
+}
+
+/* Projets */
+#bgProjet {
+  background-color: #a295c6;
+  height: 970px;
+}
+
+.boxProjet {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-block-start: 5rem;
+}
+
+.texteProjet {
+  margin-block-end: 3rem;
+  font-size: 18px;
+  text-align: center;
+}
+
+.projets {
+  text-align: center;
+}
+
+.projet2 {
+  padding-block-start: 3rem;
+}
+
+.box-1 {
+  margin-top: 2rem;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 130px;
+  cursor: pointer;
+}
+
+.btn-one {
+  color: #fff;
+  transition: all 0.3s;
+  position: relative;
+  padding-bottom: 6rem;
+}
+
+.btn-one span {
+  transition: all 0.3s;
+  font-size: 15px;
+}
+
+.btn-one::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-top-color: rgba(255, 255, 255, 0.5);
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+  transform: scale(0.1, 1);
+}
+.btn-one:hover span {
+  letter-spacing: 2px;
+}
+
+.btn-one:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.btn-one::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-one:hover::after {
+  opacity: 0;
+  transform: scale(0.1, 1);
+}
+
+#bgContact {
+  background-color: #3a3c63;
+  height: 350px;
+}
+
+.boxContact {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-block-start: 2em;
+  color: #ffffff;
+}
+
+.liens {
+  padding-block-start: 1rem;
+  margin-inline-start: 30em;
+}
+
+.logo,
+a:link {
+  padding-inline-end: 2rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* Footer */
+#bgFin {
+  background-color: #f0e3ef;
+  height: 200px;
+  width: 100%;
+}
+
+.basPage {
+  color: #3a3c63;
+  font-size: 18px;
+  justify-content: center;
+  padding-block-start: 7rem;
+}
